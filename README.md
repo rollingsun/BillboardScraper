@@ -5,8 +5,14 @@
 ##Installation
 If you’re already familiar with installation of Python packages, you can install Scrapy and its dependencies from PyPI with:
 
-''' 
+```
 pip install Scrapy
-'''
+```
 
+##Running the scraper
 
+Open terminal in the same directory in which project is stored and type
+
+```scrapy crawl billboarder -o top-100.json```
+ 
+ top-100 can be replaced by any file name you want.
